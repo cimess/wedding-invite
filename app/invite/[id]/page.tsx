@@ -260,6 +260,36 @@ export default async function InvitationPage({
           </div>
         </div>
 
+        {/* EXPLORE PRE-WEDDING GALLERY BUTTON / BANNER */}
+        <div className="mt-8 rounded-3xl border border-[#d9d0be] bg-white/95 p-6 md:p-8 text-center shadow-md">
+          <p className="text-[10px] uppercase tracking-[0.25em] text-[#91754c] font-semibold">
+            Our Love Story in Pictures
+          </p>
+          <h3 className="mt-1 font-serif text-2xl md:text-3xl font-medium text-[#2c2820]">
+            View Our Pre-Wedding Photo Gallery
+          </h3>
+          <p className="mt-2 text-xs md:text-sm text-[#736c5f] max-w-md mx-auto leading-relaxed">
+            Step into our moments of love, laughter, and romance captured before our big day.
+          </p>
+
+          <div className="mt-6 flex flex-wrap justify-center items-center gap-3">
+            <Link
+              href="/#gallery"
+              className="inline-flex items-center gap-2.5 rounded-full bg-[#34372f] px-7 py-3.5 text-xs font-semibold tracking-wider text-[#f7f4ee] transition hover:bg-[#91754c] shadow-sm group"
+            >
+              <span>Explore Pre-Wedding Pictures</span>
+              <span className="transition-transform group-hover:translate-x-1" aria-hidden="true">→</span>
+            </Link>
+
+            <Link
+              href="/"
+              className="inline-flex items-center gap-2 rounded-full border border-[#d9d0be] bg-transparent px-5 py-3.5 text-xs font-semibold tracking-wider text-[#736c5f] transition hover:border-[#91754c] hover:text-[#2c2820]"
+            >
+              <span>Visit Full Wedding Story</span>
+            </Link>
+          </div>
+        </div>
+
         {/* Footer */}
         <footer className="mt-8 text-center text-xs text-[#8a7e6b]">
           Tobore &amp; Ebunoluwa · 19 December 2026 · Lagos, Nigeria
