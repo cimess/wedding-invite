@@ -40,6 +40,8 @@ export async function GET(request: NextRequest) {
       invited: true,
       guest: {
         name: guest.name,
+        table: guest.table || 'Reserved Guest Area',
+        seat: guest.seat,
       },
     });
   }
@@ -54,6 +56,8 @@ export async function GET(request: NextRequest) {
       invited: guests.length > 0,
       guests: guests.map((guest) => ({
         name: guest.name,
+        table: guest.table || 'Reserved Guest Area',
+        seat: guest.seat,
       })),
     });
   }

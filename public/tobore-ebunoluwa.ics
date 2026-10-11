@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Tobore and Ebunoluwa//Wedding//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:tobore-ebunoluwa-20261219@wedding
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Tobore & Ebunoluwa's Wedding
+LOCATION:The NAFOWA Hall\, Sam Ethnan Air Force Base\, Lagos
+DESCRIPTION:Wedding reception. Refer to your personal invitation for arrival
+  details. RSVP: Pelumi +2348024716080 or Femi +2348124211063.
+END:VEVENT
+END:VCALENDAR

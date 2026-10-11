@@ -3,6 +3,8 @@
 export type Guest = {
   token: string;
   name: string;
+  table?: string;
+  seat?: string;
 };
 
 const guests: Guest[] = [
