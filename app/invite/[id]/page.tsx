@@ -34,9 +34,10 @@ export async function generateMetadata({
       description: `Dear ${guest.name}, you are warmly invited to celebrate the wedding of Tobore & Ebunoluwa on Saturday, 19 December 2026.`,
       images: [
         {
-          url: "/images/wedding-pic/hero.webp",
+          url: "/og-preview.jpg",
           width: 1200,
           height: 630,
+          type: "image/jpeg",
           alt: `Wedding pass for ${guest.name}`,
         },
       ],
@@ -45,7 +46,7 @@ export async function generateMetadata({
       card: "summary_large_image",
       title: `Wedding Pass for ${guest.name} — Tobore & Ebunoluwa`,
       description: `Dear ${guest.name}, you are warmly invited to celebrate the wedding of Tobore & Ebunoluwa on Saturday, 19 December 2026.`,
-      images: ["/images/wedding-pic/hero.webp"],
+      images: ["/og-preview.jpg"],
     },
   };
 }

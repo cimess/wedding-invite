@@ -29,9 +29,10 @@ export const metadata: Metadata = {
     siteName: "Tobore & Ebunoluwa Wedding",
     images: [
       {
-        url: "/images/wedding-pic/hero.webp",
+        url: "/og-preview.jpg",
         width: 1200,
         height: 630,
+        type: "image/jpeg",
         alt: "Tobore & Ebunoluwa Wedding Celebration",
       },
     ],
@@ -42,7 +43,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Tobore & Ebunoluwa — Wedding Celebration",
     description: "You are warmly invited to celebrate the wedding of Tobore & Ebunoluwa on Saturday, 19 December 2026.",
-    images: ["/images/wedding-pic/hero.webp"],
+    images: ["/og-preview.jpg"],
   },
 };
 
